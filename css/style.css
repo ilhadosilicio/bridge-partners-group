@@ -547,3 +547,41 @@ footer.site-footer { padding: 56px 0 28px; }
   height: 50px;
   margin-bottom: 6px;
 }
+
+/* ---------- Clientes (sprite) ---------- */
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+.client-logo {
+  width: 220px;
+  height: 110px;
+  background-image: url('/assets/clients-sprite.png');
+  background-repeat: no-repeat;
+  background-size: 880px 550px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background-color: var(--surface);
+}
+.client-logo--equatorial { background-position: 0 0; }
+.client-logo--aes { background-position: -220px 0; }
+.client-logo--concremat { background-position: -440px 0; }
+.client-logo--sap { background-position: -660px 0; }
+.client-logo--ibrati { background-position: 0 -110px; }
+.client-logo--supergasbras { background-position: -220px -110px; }
+.client-logo--eldorado { background-position: -440px -110px; }
+.client-logo--cgi { background-position: -660px -110px; }
+.client-logo--finity { background-position: 0 -220px; }
+.client-logo--jj { background-position: -220px -220px; }
+.client-logo--resource { background-position: -440px -220px; }
+.client-logo--tecnisa { background-position: -660px -220px; }
+.client-logo--mapfre { background-position: 0 -330px; }
+.client-logo--cesvi { background-position: -220px -330px; }
+.client-logo--multirede { background-position: -440px -330px; }
+.client-logo--jsl { background-position: -660px -330px; }
+.client-logo--makro { background-position: 0 -440px; }
+.client-logo--brf { background-position: -220px -440px; }
+.client-logo--msd { background-position: -440px -440px; }
