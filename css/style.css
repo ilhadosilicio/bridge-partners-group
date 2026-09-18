@@ -586,3 +586,12 @@ footer.site-footer { padding: 56px 0 28px; }
 .client-logo--brf { background-position: -220px -440px; }
 .client-logo--msd { background-position: -440px -440px; }
 .client-logo--eurochem { background-position: -660px -440px; }
+
+/* Blog covers */
+.blog-card .blog-cover { display: block; width: 100%; height: 150px; object-fit: cover; }
+.article-cover {
+  margin: 0 0 30px; border-radius: var(--radius-lg); overflow: hidden;
+  box-shadow: var(--shadow-sm); border: 1px solid var(--border);
+}
+.article-cover img { display: block; width: 100%; height: 340px; object-fit: cover; object-position: center 35%; }
+@media (max-width: 640px) { .article-cover img { height: 200px; } }
