@@ -284,10 +284,16 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 .hero-stats .stat span { font-size: 13px; color: var(--slate-soft); }
 
 .hero-visual {
+  display: block;
+  width: 100%;
+  height: auto;
   border-radius: var(--radius-xl);
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: center;
   box-shadow: var(--shadow-lg);
 }
+@media (max-width: 900px) { .hero-visual { aspect-ratio: 16 / 9; } }
 
 /* ---------- Section framework ---------- */
 section { padding: 64px 0; }
